@@ -15,6 +15,7 @@ public class SimpleTest extends Screenshot_1 {
     protected static String password = "";
     protected static long start;
     protected static long finish;
+    protected static JavascriptExecutor jse = (JavascriptExecutor)driver;
 
     @BeforeClass
     public static void goToWebPage() throws Exception {
@@ -57,6 +58,10 @@ public class SimpleTest extends Screenshot_1 {
 
             finish = System.currentTimeMillis();
             System.out.println("Время загрузки сраницы portfolio.html на данном ПК - " + ((finish - start2)/1000.0) + " сек.");
+
+            driver.findElement(By.cssSelector("#portfolio > div:nth-child(4) > div.for-button > button")).click();
+            Thread.sleep(3000);
+            jse.executeScript("scroll(0, 800);");
 
             Thread.sleep(3000);
 

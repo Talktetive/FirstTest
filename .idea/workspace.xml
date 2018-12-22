@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3083a3-b0f8-4733-83a1-202ccd751c06" name="Default Changelist" comment="Подключение allure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/SimpleTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="244">
+              <caret line="61" column="106" selection-start-line="61" selection-start-column="106" selection-end-line="61" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1624#1632#0" expanded="true" />
@@ -147,7 +145,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545486992243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545490780487" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FirstTest-30-11-18/FirstTest" />
@@ -296,7 +294,7 @@
       <workItem from="1545213930150" duration="583000" />
       <workItem from="1545378756310" duration="1319000" />
       <workItem from="1545385815800" duration="10084000" />
-      <workItem from="1545469036120" duration="10030000" />
+      <workItem from="1545469036120" duration="11759000" />
     </task>
     <task id="LOCAL-00001" summary="Подключение allure">
       <created>1545403388904</created>
@@ -309,12 +307,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest - 2018.12.22 at 14h 03m 46s.xml">
-      <configuration name="SimpleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleTest - 2018.12.22 at 14h 07m 16s.xml">
-      <configuration name="SimpleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimpleTest - 2018.12.22 at 14h 32m 21s.xml">
       <configuration name="SimpleTest" configurationId="JUnit" />
     </history-entry>
@@ -339,9 +331,15 @@
     <history-entry file="SimpleTest - 2018.12.22 at 15h 49m 59s.xml">
       <configuration name="SimpleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleTest - 2018.12.22 at 15h 56m 48s.xml">
+      <configuration name="SimpleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest - 2018.12.22 at 16h 45m 24s.xml">
+      <configuration name="SimpleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115440000" />
+    <option name="totallyTimeSpent" value="117169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-4" width="1936" height="1056" extended-state="6" />
@@ -485,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="244">
+          <caret line="61" column="106" selection-start-line="61" selection-start-column="106" selection-end-line="61" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1624#1632#0" expanded="true" />

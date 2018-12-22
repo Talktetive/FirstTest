@@ -32,7 +32,6 @@ public class Screenshot_1 {
 
 
 
-
     @Rule
     public FailureTestWatcher testWatcher = new FailureTestWatcher();
 
