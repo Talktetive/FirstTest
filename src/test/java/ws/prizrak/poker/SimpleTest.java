@@ -3,7 +3,10 @@ package ws.prizrak.poker;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class SimpleTest extends Screenshot_1 {
@@ -16,7 +19,7 @@ public class SimpleTest extends Screenshot_1 {
     @BeforeClass
     public static void goToWebPage() throws Exception {
         driver.manage().window().maximize();
-        driver.manage().window().fullscreen();
+        //driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         String url = "https://pinguin-studio.com.ua/";
@@ -33,18 +36,32 @@ public class SimpleTest extends Screenshot_1 {
         password = "admin";
     }
         @Test
-        public void userLogin () /*throws IOException, AWTException*/ {
+        public void userLogin () throws InterruptedException /*throws IOException, AWTException*/ {
             //Измерение загрузки страницы в секундах
             finish = System.currentTimeMillis();
             long totalTime = finish - start;
             Double secondLoad = (totalTime / 1000.0);
-            System.out.println("Время загрузки сраницы на данном ПК - " + secondLoad + " сек.");
+            System.out.println("Время загрузки главной страницы сраницы на данном ПК - " + secondLoad + " сек.");
 
             //Pinguin - закрытие выплывашки
-            driver.findElement(By.xpath("#index > div.left-modal.active > button")).click();
+            driver.findElement(By.cssSelector("#index > div.left-modal.active > button")).click();
+            takeScreenshot("Start_Page");
+
+            //Создание листа для вкладок
+            ((JavascriptExecutor)driver).executeScript("window.open()");
+            ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+            //Запуск новой вкладки
+            driver.switchTo().window(tabs.get(1));
+            long start2 = System.currentTimeMillis();
+            driver.get("https://pinguin-studio.com.ua/portfolio.html");
+
+            finish = System.currentTimeMillis();
+            System.out.println("Время загрузки сраницы portfolio.html на данном ПК - " + ((finish - start2)/1000.0) + " сек.");
+
+            Thread.sleep(3000);
 
             /*ниже вызов метода создания скрина - в скобках написано название для файла*/
-            takeScreenshot("EnterData");
+            takeScreenshot("Portfolio");
 
             //if (Assert.assertEquals("Андрей Покровский Админ", nameUser))
 
