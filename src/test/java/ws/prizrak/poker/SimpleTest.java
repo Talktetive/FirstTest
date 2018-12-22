@@ -3,9 +3,7 @@ package ws.prizrak.poker;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
-
 import java.awt.*;
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class SimpleTest extends Screenshot_1 {
@@ -14,9 +12,6 @@ public class SimpleTest extends Screenshot_1 {
     protected static String password = "";
     protected static long start;
     protected static long finish;
-
-    // void calculateTime(long seconds) {
-    //long sec = seconds % 60;
 
     @BeforeClass
     public static void goToWebPage() throws Exception {
@@ -37,27 +32,19 @@ public class SimpleTest extends Screenshot_1 {
         login = "admin@example.com";
         password = "admin";
     }
-
         @Test
-        public void userLogin () throws IOException, AWTException {
-
-            //long sec = seconds % 60;
+        public void userLogin () /*throws IOException, AWTException*/ {
+            //Измерение загрузки страницы в секундах
             finish = System.currentTimeMillis();
             long totalTime = finish - start;
-            //int timeLog = (int) totalTime;
             Double secondLoad = (totalTime / 1000.0);
             System.out.println("Время загрузки сраницы на данном ПК - " + secondLoad + " сек.");
-
 
             //Pinguin - закрытие выплывашки
             driver.findElement(By.xpath("#index > div.left-modal.active > button")).click();
 
-
-
-
             /*ниже вызов метода создания скрина - в скобках написано название для файла*/
             takeScreenshot("EnterData");
-
 
             //if (Assert.assertEquals("Андрей Покровский Админ", nameUser))
 

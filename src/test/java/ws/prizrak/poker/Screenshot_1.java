@@ -57,7 +57,7 @@ public class Screenshot_1 {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
             /*--Ниже написан метод создания категории если её нет и сохранение её в строке "pathDir"--*/
-            String pathDir = "D:\\InteliJ\\FirstTest\\Screenshot\\";
+            String pathDir = "screenshot";
             Files.createDirectories(Paths.get(pathDir));
 
             //--Ниже написан метод для сохраннения даты и времени в названии скрина
