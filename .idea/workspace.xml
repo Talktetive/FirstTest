@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3083a3-b0f8-4733-83a1-202ccd751c06" name="Default Changelist" comment="Подключение allure">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/Screenshot_1$FailureTestWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/Screenshot_1$FailureTestWatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/Screenshot_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/Screenshot_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ws/prizrak/poker/SimpleTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,23 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="272">
+              <caret line="61" column="78" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -149,7 +141,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545478311492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545480833474" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FirstTest-30-11-18/FirstTest" />
@@ -298,7 +290,7 @@
       <workItem from="1545213930150" duration="583000" />
       <workItem from="1545378756310" duration="1319000" />
       <workItem from="1545385815800" duration="10084000" />
-      <workItem from="1545469036120" duration="4183000" />
+      <workItem from="1545469036120" duration="5845000" />
     </task>
     <task id="LOCAL-00001" summary="Подключение allure">
       <created>1545403388904</created>
@@ -311,15 +303,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest - 2018.12.21 at 15h 38m 38s.xml">
-      <configuration name="SimpleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleTest - 2018.12.21 at 15h 39m 19s.xml">
-      <configuration name="SimpleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleTest - 2018.12.21 at 15h 43m 36s.xml">
-      <configuration name="SimpleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimpleTest - 2018.12.21 at 15h 46m 15s.xml">
       <configuration name="SimpleTest" configurationId="JUnit" />
     </history-entry>
@@ -341,9 +324,18 @@
     <history-entry file="SimpleTest - 2018.12.22 at 13h 22m 38s.xml">
       <configuration name="SimpleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleTest - 2018.12.22 at 13h 32m 07s.xml">
+      <configuration name="SimpleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest - 2018.12.22 at 14h 03m 46s.xml">
+      <configuration name="SimpleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest - 2018.12.22 at 14h 07m 16s.xml">
+      <configuration name="SimpleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109593000" />
+    <option name="totallyTimeSpent" value="111255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-4" width="1936" height="1056" extended-state="6" />
@@ -478,20 +470,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="176">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/SimpleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ws/prizrak/poker/Screenshot_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="61" column="78" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
         </state>
       </provider>
     </entry>
