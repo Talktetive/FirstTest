@@ -5,18 +5,18 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 
 import java.awt.*;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
-//import java.io.IOException;
 
 public class SimpleTest extends Screenshot_1 {
 
     protected static String login = "";    //для получения переменной во всех методах
     protected static String password = "";
-
     protected static long start;
     protected static long finish;
 
+    // void calculateTime(long seconds) {
+    //long sec = seconds % 60;
 
     @BeforeClass
     public static void goToWebPage() throws Exception {
@@ -37,13 +37,17 @@ public class SimpleTest extends Screenshot_1 {
         login = "admin@example.com";
         password = "admin";
     }
-        @Test
-        public void userLogin () /*throws IOException, AWTException*/ {
 
+        @Test
+        public void userLogin () throws IOException, AWTException {
+
+            //long sec = seconds % 60;
             finish = System.currentTimeMillis();
             long totalTime = finish - start;
             //int timeLog = (int) totalTime;
-            System.out.println("Total Time for page load - "+ totalTime);
+            Double secondLoad = (totalTime / 1000.0);
+            System.out.println("Время загрузки сраницы на данном ПК - " + secondLoad + " сек.");
+
 
             //Pinguin - закрытие выплывашки
             driver.findElement(By.xpath("#index > div.left-modal.active > button")).click();
@@ -53,7 +57,6 @@ public class SimpleTest extends Screenshot_1 {
 
             /*ниже вызов метода создания скрина - в скобках написано название для файла*/
             takeScreenshot("EnterData");
-
 
 
             //if (Assert.assertEquals("Андрей Покровский Админ", nameUser))
